@@ -1,0 +1,15 @@
+#include <stdio.h>
+
+int main()
+{
+  int length, breath;
+  
+  printf("Enter the length of the rectangle \n");
+  scanf("%d", &length);
+  
+  printf("Enter the breath fo the rectangle \n");
+  scanf("%d", &breath);
+  
+  printf("The area of the rectangle is %d", length*breath);
+  return 0;
+}
