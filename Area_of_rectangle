@@ -1,0 +1,11 @@
+#include <stdio.h>
+
+int main()
+{
+
+  int length = 3, breath = 5;
+  int area = length*breath;
+  prinf("Area of the rectangle is %d", area);
+  return 0;
+
+}
